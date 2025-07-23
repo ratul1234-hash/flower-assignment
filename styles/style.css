@@ -1,0 +1,62 @@
+.nav{
+    width: 1140px;
+    height: 71px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+.nav ul li{
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+}
+.nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* banner */
+
+.banner{
+    max-width: 1140px;
+    height: 461px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+}
+.flower-img{
+   max-width: 570px;
+    height: 355px;
+}
+.font{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.orange{
+    color: #E95A08;
+}
+
+
+/* plant section */
+
+.plant{
+    max-width: 1140px;
+    height: 1185px;
+    margin: 120px auto;
+    
+
+
+}
+
+.plant-bottom{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
