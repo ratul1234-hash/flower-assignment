@@ -50,13 +50,44 @@
     max-width: 1140px;
     height: 1185px;
     margin: 120px auto;
+    padding: 20px;
     
 
 
+}
+.plant-img{
+    width: 100%;
+    height: 322px;
+    
 }
 
 .plant-bottom{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    flex-direction: column;
+}
+
+
+
+
+
+.latest{
+    max-width: 1140px;
+    height: 597px;
+    margin: 400px auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.latest-img{
+    width: 540px;
+    height: 597px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    width: px;
+    height: px;
+    top: -272px;
 }
 
