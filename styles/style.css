@@ -35,9 +35,10 @@
    max-width: 570px;
     height: 355px;
 }
-.font{
+.fnt{
     font-weight: 700;
     font-size: 4rem;
+    color: #000000;
 }
 .orange{
     color: #E95A08;
@@ -64,7 +65,7 @@
 .plant-bottom{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    flex-direction: column;
+    
 }
 
 
@@ -80,14 +81,117 @@
     gap: 20px;
 }
 .latest-img{
-    width: 540px;
+    max-width: 540px;
     height: 597px;
     position: relative;
-}
-.logo{
-    position: absolute;
-    width: px;
-    height: px;
-    top: -272px;
+    width: 50%;
 }
 
+.logo{
+    position: absolute;
+    top: -128px;
+    left: 347px;
+
+}
+.logo img{
+    
+    max-width: 250px;
+    height: 250px;
+    
+}
+
+.text{
+    width: 50%;
+}
+.text .fnt{
+    font-size: 3rem;
+}
+.paragraph{
+    font-weight: 100;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.last-part{
+    max-width: 1440px;
+    height: 533px;
+    position: relative;
+    
+}
+
+.bg-img{
+    background-image: url(../assets/news-letter-bg.png);
+    width: 1440px;
+    width: 100%;
+    height: 533px;
+    text-align: center;
+    line-height: 530px;
+    justify-content: center;
+}
+.input {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    width: 640px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+.btn{
+    position: absolute;
+    top: 60%;
+    /* left: 20%; */
+    right: 290px;
+    width: 186px;
+    height: 61px;
+    padding: 20px;
+    background-color: #E95A08;
+    color: white;
+
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.flex{
+    display: flex;
+}
+
+
+
+/* footer */
+
+.foot{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+.fb{
+    gap: 10px;
+    display: flex;
+    margin-top: 20px;
+
+}
+.fb img{
+    width: 36px;
+    height: 36px;
+}
+/* .x{
+    gap: 30px;
+    flex: 1;
+} */
+.list ul li{
+    list-style: none;
+     color: rgba(0, 0, 0, 0.5);
+
+}
+.list ul li a{
+    text-decoration: none;
+     color: rgba(0, 0, 0, 0.5);
+}
