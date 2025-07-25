@@ -21,6 +21,13 @@
     text-decoration: none;
     color: #000000;
 }
+#s{
+     color: rgba(0, 0, 0, 0.5);
+}
+
+#d{
+       color: rgba(0, 0, 0, 0.5);
+}
 
 /* banner */
 
@@ -100,6 +107,7 @@
     border-radius: 10px 10px 10px 10px;
     color: white;
     
+    
 }
 .bloom-3{
     background-image: url(../assets/deal-zabo.png);
@@ -110,6 +118,7 @@
     color: white;
     align-items: center;
     border-radius: 10px 10px 10px 10px;
+   
 
 }
 
